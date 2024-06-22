@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;padding:0px;
+}
+
+
+.container{
+    width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+
+@media screen and (max-width: 1200px){
+    .container{
+      
+        width: 100%;
+        position: relative;
+        padding: 0px 10px;
+    }
+}
+
+.row{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row-between{
+    justify-content: space-between;
+}
