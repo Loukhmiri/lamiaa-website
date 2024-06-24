@@ -369,12 +369,15 @@ img{
 #porjects .item{
     width: 250px;    
     margin: 10px;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     background-color: #2C2C3D;
     color: white;
 }
-
+#porjects .item img{
+    height: 150px;
+}
 #porjects .item span{
     height: 50px;
     text-align: center;
